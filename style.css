@@ -14,7 +14,7 @@ body {
   box-sizing: border-box;
   font-size: 1em;
   font-family: var(--fonte-principal);
-  background-color: aliceblue;
+  background-color: var(--cor-branca);
 }
 
 .bg-vermelho {
@@ -27,4 +27,8 @@ body {
 
 .bg-areia {
   background-color: var(--cor-areia);
+}
+
+.bg-marrom {
+    background-color: var(--cor-marrom);
 }
