@@ -1,25 +1,26 @@
 .main {
-    display: flex;
-    justify-content: space-between;
-    height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 .main-card--left {
-    background-color: aqua;
-    min-width: 10%;
-    max-width: 10%;
-    border-radius: 0em 2em 2em 0em;
+  min-width: 10%;
+  max-width: 10%;
+  border-radius: 0em 1em 1em 0em;
+  box-shadow: -4em 2em 6em 4em rgb(82, 82, 82);
+  z-index: 500;
 }
 
 .main-card--principal {
-    background-color: var(--cor-branca);
-    min-width: 70%;
-    max-width: 70%;
+  min-width: 70%;
+  max-width: 70%;
 }
 
-.main-card--right{
-    background-color: var(--cor-marrom);
-    min-width: 20%;
-    max-width: 20%;
-    border-radius: 2em 0em 0em 2em;
+.main-card--right {
+  min-width: 20%;
+  max-width: 20%;
+  border-radius: 1em 0em 0em 1em;
+  box-shadow: 4em 2em 6em 4em rgb(82, 82, 82);
+  z-index: 500;
 }

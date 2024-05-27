@@ -1,16 +1,30 @@
 @import url(./style/card.css);
 
-:root{
- --fonte-principal:Arial, Helvetica, sans-serif;
- --cor-vermelha: #a1311c;
- --cor-branca: #fdfffc;
- --cor-marrom:#cf9570;
- --cor-azul: #003f56;
+:root {
+  --fonte-principal: Arial, Helvetica, sans-serif;
+  --cor-vermelha: #a1311c;
+  --cor-branca: #fdfffc;
+  --cor-marrom: #cf9570;
+  --cor-azul: #003f56;
+  --cor-areia: #fad180;
+  --cor-verde: #00751f;
 }
 
 body {
-    box-sizing: border-box;
-    font-size: 1em;
-    font-family: var(--fonte-principal);
-    background-color: aliceblue;
+  box-sizing: border-box;
+  font-size: 1em;
+  font-family: var(--fonte-principal);
+  background-color: aliceblue;
+}
+
+.bg-vermelho {
+  background-color: var(--cor-vermelha);
+}
+
+.bg-azul {
+  background-color: var(--cor-azul);
+}
+
+.bg-areia {
+  background-color: var(--cor-areia);
 }
