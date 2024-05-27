@@ -29,5 +29,5 @@
     background-image: url(../img/rotafrio.png);
     background-repeat: no-repeat;
     background-size: 90%;
-    background-position: 0.5em 0em;
+    background-position-x: 0.5em;
 }
