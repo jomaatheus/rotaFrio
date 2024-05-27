@@ -24,3 +24,10 @@
   box-shadow: 4em 2em 6em 4em rgb(82, 82, 82);
   z-index: 500;
 }
+
+.main-card--img {
+    background-image: url(../img/rotafrio.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 0.5em 0em;
+}
