@@ -12,14 +12,14 @@
 }
 
 .main-card--principal {
-    background-color: red;
+    background-color: var(--cor-branca);
     min-width: 70%;
     max-width: 70%;
 }
 
 .main-card--right{
-    background-color: black;
+    background-color: var(--cor-marrom);
     min-width: 20%;
     max-width: 20%;
-    border-radius: 0em 2em 2em 0em;
+    border-radius: 2em 0em 0em 2em;
 }

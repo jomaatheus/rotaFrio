@@ -3,6 +3,9 @@
 :root{
  --fonte-principal:Arial, Helvetica, sans-serif;
  --cor-vermelha: #a1311c;
+ --cor-branca: #fdfffc;
+ --cor-marrom:#cf9570;
+ --cor-azul: #003f56;
 }
 
 body {
