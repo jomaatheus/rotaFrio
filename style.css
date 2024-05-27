@@ -1,0 +1,13 @@
+@import url(./style/card.css);
+
+:root{
+ --fonte-principal:Arial, Helvetica, sans-serif;
+ --cor-vermelha: #a1311c;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: var(--fonte-principal);
+    background-color: aliceblue;
+}
