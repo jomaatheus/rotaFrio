@@ -1,0 +1,95 @@
+#mid {
+    width: 100%;
+    height: 100vh;
+}
+
+#mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6em 0em;
+}
+
+.info{
+    text-align: center;
+    padding: 4em;
+}
+
+.title {
+    font-size: 4em;
+    text-align: center;
+    margin: 1em;
+    position: relative;
+}
+.title::before, .title::after {
+    content: '——————————';
+    font-size: 0.5em; /* Ajuste o tamanho conforme necessário */
+    vertical-align: middle;
+}
+.title::before {
+    margin-right: 10px; /* Ajuste o espaço conforme necessário */
+}
+.title::after {
+    margin-left: 10px; /* Ajuste o espaço conforme necessário */
+}
+
+.info p{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+#top {
+    position: fixed;
+    top: 90%;
+    right: 0.5em;
+    font-size: 2em;
+    background-color: var(--cor-azul);
+    padding: 0.2em;
+    opacity: 50%;
+    
+}
+
+#top a{
+    text-decoration: none;
+    color: var(--cor-areia);
+}
+
+.color-cf {
+    color: var(--cor-areia);
+}
+
+.color-areia {
+    color: #A1311C;
+}
+
+.color-piloes {
+    color: #00751F;
+}
+
+.color-matinhas {
+    color: #F28500;
+}
+
+.color-solanea {
+    color: #942911;
+}
+.color-serraria {
+    color: #00A223;
+}
+.color-borborema {
+    color: #00751F;
+}
+.color-remigio {
+    color: #08428F;
+}
+.color-bananeiras {
+    color: #348AA7;
+}
+.color-alagoa-grande {
+    color: #433372;
+}
+
+.color-alagoa-nova {
+    color: #D7263D;
+}
